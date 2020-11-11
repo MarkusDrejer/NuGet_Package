@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NuGet_Tracker_Package/1.1.0": {
+        "dependencies": {
+          "EventTracker.Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "NuGet_Tracker_Package.dll": {}
+        }
+      },
+      "EventTracker.Models/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NuGet_Tracker_Package/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventTracker.Models/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MNQV8UsTbbUNAE0EaOEPQnUMBgMN506deHlPKq7oFQQTpzdIjwdhVSReOvpEFaOV15zGxxMfvcQqPZOMbri1KQ==",
+      "path": "eventtracker.models/1.0.0",
+      "hashPath": "eventtracker.models.1.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet_Tracker_Package", "NuGet_Tracker_Package\NuGet_Tracker_Package.csproj", "{8056252D-4072-4125-8E17-A0A54DB774FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8056252D-4072-4125-8E17-A0A54DB774FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8056252D-4072-4125-8E17-A0A54DB774FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8056252D-4072-4125-8E17-A0A54DB774FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8056252D-4072-4125-8E17-A0A54DB774FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77B3840D-40A6-439A-8AA3-7C527D387D39}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NuGet_Tracker_Package</id>
+    <version>1.0.0</version>
+    <authors>NuGet_Tracker_Package</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\obcmb\Documents\_KEA Git Projekter\_Webhook Function\NuGet_Tracker_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll" target="lib\netcoreapp3.1\NuGet_Tracker_Package.dll" />
+  </files>
+</package>
