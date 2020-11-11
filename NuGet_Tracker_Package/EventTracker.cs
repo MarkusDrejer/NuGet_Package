@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Net;
 using Models;
 using Newtonsoft.Json;
@@ -8,13 +7,14 @@ namespace NuGet_Tracker_Package
 {
     public class EventTracker
     {
-        public static void TrackEvent(IEvent trigger, string ApiKey, string clientId)
+        public static void TrackEvent(BaseEvent trigger, string ApiKey, string clientId)
         {
             var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:7071/api/Function1");
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
             httpWebRequest.Headers.Add("x-api-key", ApiKey);
             httpWebRequest.Headers.Add("client-id", clientId);
+            httpWebRequest.Headers.Add("event-type", trigger.ToString());
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
