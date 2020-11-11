@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "EventTracker.Models/1.0.0": {
+      "EventTracker.Models/1.0.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Models.dll": {}
@@ -23,14 +23,14 @@
     }
   },
   "libraries": {
-    "EventTracker.Models/1.0.0": {
-      "sha512": "MNQV8UsTbbUNAE0EaOEPQnUMBgMN506deHlPKq7oFQQTpzdIjwdhVSReOvpEFaOV15zGxxMfvcQqPZOMbri1KQ==",
+    "EventTracker.Models/1.0.1": {
+      "sha512": "7eeOSbhnxrC7rNp4KC4Qo3e7ivTgBuP6QDU96oae9RTb9l4voJGFjz/BdxEBSHGNqOWpFNdkGpAoHfbLramQUw==",
       "type": "package",
-      "path": "eventtracker.models/1.0.0",
+      "path": "eventtracker.models/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "eventtracker.models.1.0.0.nupkg.sha512",
+        "eventtracker.models.1.0.1.nupkg.sha512",
         "eventtracker.models.nuspec",
         "lib/netcoreapp3.1/Models.dll"
       ]
@@ -69,24 +69,24 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EventTracker.Models >= 1.0.0",
+      "EventTracker.Models >= 1.0.1",
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\obcmb\\.nuget\\packages\\": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\obcmb\\Documents\\_KEA Git Projekter\\_Webhook Function\\NuGet_Tracker_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
+      "projectUniqueName": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
       "projectName": "EventTriggerHandler",
-      "projectPath": "C:\\Users\\obcmb\\Documents\\_KEA Git Projekter\\_Webhook Function\\NuGet_Tracker_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
-      "packagesPath": "C:\\Users\\obcmb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\obcmb\\Documents\\_KEA Git Projekter\\_Webhook Function\\NuGet_Tracker_Package\\NuGet_Tracker_Package\\obj\\",
+      "projectPath": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\obcmb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -94,6 +94,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.insilico.dk/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -112,7 +113,7 @@
         "dependencies": {
           "EventTracker.Models": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -134,7 +135,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
