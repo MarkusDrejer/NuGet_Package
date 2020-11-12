@@ -7,3 +7,12 @@ C:\Users\obcmb\Documents\_KEA Git Projekter\_Webhook Function\NuGet_Tracker_Pack
 C:\Users\obcmb\Documents\_KEA Git Projekter\_Webhook Function\NuGet_Tracker_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
 C:\Users\obcmb\Documents\_KEA Git Projekter\_Webhook Function\NuGet_Tracker_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
 C:\Users\obcmb\Documents\_KEA Git Projekter\_Webhook Function\NuGet_Tracker_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csproj.CoreCompileInputs.cache
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.deps.json
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csprojAssemblyReference.cache
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.AssemblyInfoInputs.cache
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.AssemblyInfo.cs
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csproj.CoreCompileInputs.cache
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
+C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
