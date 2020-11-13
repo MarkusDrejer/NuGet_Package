@@ -7,13 +7,13 @@ namespace NuGet_Tracker_Package
 {
     public class EventTracker
     {
-        public static void TrackEvent(BaseEvent trigger, string ApiKey, string clientId)
+        public static void TrackEvent(IEvent trigger, string apiKey)
         {
             var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:7071/api/Function1");
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
-            httpWebRequest.Headers.Add("x-api-key", ApiKey);
-            httpWebRequest.Headers.Add("event-class", trigger.ToString());
+            httpWebRequest.Headers.Add("x-api-key", apiKey);
+            httpWebRequest.Headers.Add("event-type", trigger.ToString());
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
