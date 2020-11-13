@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rO4rckTea4lXg9YvDKC0EG393PAMQVOwiMf48A+/yRDuWQPV2ITxhfk3QLhTBFdn0QAezt837A7bjYMDtu5zLg==",
+  "dgSpecHash": "Ita4zpFDnNxhhSQNsujEkxIpfFLNaw6nVkuUJ2WIyq2CvnjC/tzCVj0c78+BLjxUq3Mr2/cZbqNXe80mVs5gMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\obcmb\\Documents\\_KEA Git Projekter\\_All_git_Hovedopgave\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
+  "projectFilePath": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\obcmb\\.nuget\\packages\\eventtracker.models\\1.0.7\\eventtracker.models.1.0.7.nupkg.sha512",
-    "C:\\Users\\obcmb\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\thoma\\.nuget\\packages\\eventtracker.models\\1.0.7\\eventtracker.models.1.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
