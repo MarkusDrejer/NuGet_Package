@@ -1,6 +1,9 @@
 ﻿using Newtonsoft.Json;
+using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 
 namespace Models
 {
@@ -11,9 +14,8 @@ namespace Models
         public int ClientId { get; set; }
         public string EventType { get; set; }
         public string Title { get; set; }
-
-        private Dictionary<string, string> _data;
-        public Dictionary<string, string> Data { get { return _data; } }
+        public Dictionary<string, string> DataHolder { get; }
+        public string Data { get { return JsonConvert.SerializeObject(DataHolder); } set { } }
         public Level Level { get; set; }
 
         public override string ToString()
@@ -23,7 +25,7 @@ namespace Models
 
         public BaseEvent()
         {
-            _data = new Dictionary<string, string>();
+            DataHolder = new Dictionary<string, string>();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace NuGet_Tracker_Package
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
             httpWebRequest.Headers.Add("x-api-key", apiKey);
-            httpWebRequest.Headers.Add("event-type", trigger.ToString());
+            httpWebRequest.Headers.Add("event-type", trigger.GetType().Name);
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {

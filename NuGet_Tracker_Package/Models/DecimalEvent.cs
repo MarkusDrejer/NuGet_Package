@@ -8,7 +8,7 @@
             get { return _value; }
             set
             {
-                Data.Add("value", value.ToString());
+                DataHolder.Add("value", value.ToString());
             }
         }
 

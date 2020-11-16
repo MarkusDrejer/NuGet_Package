@@ -4,9 +4,9 @@
     {
         private bool _success;
         public bool Success { 
-            get { return _success; } 
+            get { return _success; }
             set {
-                Data.Add("success", value.ToString());
+                DataHolder.Add("success", value.ToString());
             }
         }
 
