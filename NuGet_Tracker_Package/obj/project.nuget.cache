@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "Ita4zpFDnNxhhSQNsujEkxIpfFLNaw6nVkuUJ2WIyq2CvnjC/tzCVj0c78+BLjxUq3Mr2/cZbqNXe80mVs5gMQ==",
+  "dgSpecHash": "iA/CMCtlPOgbTSztl75bJr5afa9yGTMmH7gPQNylACbsDLXOvZqEYGdWe++sV2wxEBJ/KzLlr/YLSLkuFVHepw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thoma\\.nuget\\packages\\eventtracker.models\\1.0.7\\eventtracker.models.1.0.7.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []

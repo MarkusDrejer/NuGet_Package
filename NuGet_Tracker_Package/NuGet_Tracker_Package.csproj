@@ -2,16 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>EventTriggerHandler</PackageId>
+    <PackageId>EventTriggerHandler.CT</PackageId>
     <Authors>CT</Authors>
     <Company>CT</Company>
     <Product>EventTriggerHandler</Product>
     <Description>Used to send event triggers to an external webhook.</Description>
-    <Version>1.1.2</Version>
+    <Version>1.1.8</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EventTracker.Models" Version="1.0.7" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

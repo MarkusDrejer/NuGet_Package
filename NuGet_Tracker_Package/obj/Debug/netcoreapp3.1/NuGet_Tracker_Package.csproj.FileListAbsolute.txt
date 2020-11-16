@@ -16,3 +16,12 @@ C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\N
 C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csproj.CoreCompileInputs.cache
 C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
 C:\Users\obcmb\Documents\_KEA Git Projekter\_All_git_Hovedopgave\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.deps.json
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csprojAssemblyReference.cache
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.AssemblyInfoInputs.cache
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.AssemblyInfo.cs
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.pdb
+D:\Projects\NuGet_Package\NuGet_Tracker_Package\obj\Debug\netcoreapp3.1\NuGet_Tracker_Package.csproj.CoreCompileInputs.cache
