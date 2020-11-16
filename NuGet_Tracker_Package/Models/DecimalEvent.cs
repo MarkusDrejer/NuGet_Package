@@ -3,19 +3,14 @@
     public class DecimalEvent : BaseEvent
     {
         private decimal _value;
-
         public decimal Value
         {
-            get => _value;
+            get { return _value; }
             set
             {
-                Data += $" [Value: {value}] ";
+                Data.Add("value", value.ToString());
             }
         }
 
-        public override string GetData()
-        {
-            return $"{Value}";
-        }
     }
 }
