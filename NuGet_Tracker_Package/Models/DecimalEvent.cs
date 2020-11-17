@@ -2,15 +2,11 @@
 {
     public class DecimalEvent : BaseEvent
     {
-        private decimal _value;
-        public decimal Value
-        {
-            get { return _value; }
-            set
-            {
-                DataHolder.Add("value", value.ToString());
-            }
-        }
+        public decimal Value { get; set; }
 
+        public override string GetData()
+        {
+            return Value.ToString();
+        }
     }
 }

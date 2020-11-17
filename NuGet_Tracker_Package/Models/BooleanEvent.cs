@@ -2,13 +2,11 @@
 {
     public class BooleanEvent : BaseEvent
     {
-        private bool _success;
-        public bool Success { 
-            get { return _success; }
-            set {
-                DataHolder.Add("success", value.ToString());
-            }
-        }
+        public bool Success { get; set; }
 
+        public override string GetData()
+        {
+            return Success.ToString();
+        }
     }
 }
