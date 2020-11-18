@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EventTriggerHandler.CT</id>
+    <version>1.2.8</version>
+    <authors>CT</authors>
+    <owners>CT</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Used to send event triggers to an external webhook.</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="3.1.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="3.1.8" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projects\NuGet_Package\NuGet_Tracker_Package\bin\Debug\netcoreapp3.1\NuGet_Tracker_Package.dll" target="lib\netcoreapp3.1\NuGet_Tracker_Package.dll" />
+  </files>
+</package>

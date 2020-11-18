@@ -7,7 +7,8 @@
     <Company>CT</Company>
     <Product>EventTriggerHandler</Product>
     <Description>Used to send event triggers to an external webhook.</Description>
-    <Version>1.2.0</Version>
+    <Version>1.2.13</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

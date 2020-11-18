@@ -1,15 +1,15 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 
 namespace Models
 {
     public class BaseEvent
     {
-        [Key]
-        public int Id { get; set; }
-        public Guid Guid { get; set; }
-        public string EventType { get; set; }
+
+        public DateTime Timestamp { get; set; }
+
         public string Data { get; set; }
+
         public Level Level { get; set; }
 
         public override string ToString()
@@ -20,6 +20,11 @@ namespace Models
         public virtual string GetData()
         {
             return Data;
+        }
+
+        public BaseEvent()
+        {
+            Timestamp = DateTime.UtcNow;
         }
     }
 }

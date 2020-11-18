@@ -162,7 +162,7 @@
     "C:\\Users\\thoma\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.2.0",
+    "version": "1.2.13",
     "restore": {
       "projectUniqueName": "D:\\Projects\\NuGet_Package\\NuGet_Tracker_Package\\NuGet_Tracker_Package.csproj",
       "projectName": "EventTriggerHandler.CT",

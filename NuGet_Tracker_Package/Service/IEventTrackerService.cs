@@ -1,9 +1,10 @@
 ﻿using Models;
+using System.Threading.Tasks;
 
 namespace NuGet_Tracker_Package.Service
 {
     public interface IEventTrackerService
     {
-        void TrackEvent(BaseEvent baseEvent);
+        Task TrackEventAsync(BaseEvent baseEvent);
     }
 }
