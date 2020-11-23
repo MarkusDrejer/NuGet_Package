@@ -6,6 +6,8 @@ namespace Models
     public class BaseEvent
     {
 
+        public string Title { get; set; }
+
         public DateTime Timestamp { get; set; }
 
         public string Data { get; set; }
