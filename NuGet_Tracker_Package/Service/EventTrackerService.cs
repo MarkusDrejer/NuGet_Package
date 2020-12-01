@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Models;
 using Newtonsoft.Json;
@@ -12,13 +13,15 @@ namespace NuGet_Tracker_Package.Service
     public class EventTrackerService : IEventTrackerService
     {
         private readonly EventTrackerConfiguration _config;
+        private readonly ILogger _logger;
 
-        public EventTrackerService(IOptions<EventTrackerConfiguration> configuration)
+        public EventTrackerService(IOptions<EventTrackerConfiguration> configuration, ILogger logger)
         {
             _config = configuration.Value;
+            _logger = logger;
         }
 
-        public async Task TrackEventAsync(BaseEvent baseEvent)
+        public async Task TrackEvent(BaseEvent baseEvent)
         {
             try
             {
@@ -34,17 +37,11 @@ namespace NuGet_Tracker_Package.Service
                     string json = JsonConvert.SerializeObject(baseEvent, Formatting.Indented);
                     streamWriter.Write(json);
                 }
-
                 httpWebRequest.Proxy = null;
                 await httpWebRequest.GetResponseAsync();
-                //var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-                //using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-                //{
-                //    var result = streamReader.ReadToEnd();
-                //}
-            } catch (Exception _)
+            } catch (Exception e)
             {
-                
+                _logger.LogError("Unable to track event ", e);
             }
         }
     }
